@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #1a1a1a;
+    padding-top: 36px;
+    padding-bottom:  200px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+.navigation-holder{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.header-title{
+    margin-top: 110px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.header-subtitle-text {
+    display: inline-block;
+    border-left: 1px solid #8c8c8c;
+    font-weight: bold;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+}
+.header-title-text{
+font-size: 90px;
+font-weight: bold;
+color: #fff;
+max-width:620;
+line-height: 1;
+}
+.join{
+    background-color: #febe02;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 110px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.header-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+.card-info {
+    max-width: 361px;
+}
+.card-info-img {
+    display: flex;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+.about-subtitle-text {
+    display: inline-block;
+    border-left: 1px solid #fff;
+    padding: 8px 0 8px 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+}
+.about-desc{
+    color: #d1d1d1;
+    max-width: 240px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.audio-holder {
+    width: 540px;
+}
+.audio-block {
+    background-color: #242424;
+    display: flex;
+    margin-top: 61px;
+}
+.audio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    padding: 0 34px;
+}
+.play-btn {
+    display: flex;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.about-subtitle {
+     font-size: 13px;
+     color: #8c8c8c;
+     font-weight: bold;
+     letter-spacing: 1.5px;
+     text-align: center;
+     display: block;
+}
+.audio-holder {
+    width: 540px;
+}
+.audio-detail {
+    flex: 1;
+}
+.control {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.control i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}
+.audio-author {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.time {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.course-section-title {
+    font-weight: 600;
+    font-size: 70;
+    color: #1a1a1a;
+    margin: 60px 0;
+}
+.course-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.card-big {
+    width: 540px;
+}
+.card-small {
+    width: 360px;
+}
+.img-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.img-card-1 {
+    background-image: url(https://www.freepcgameshub.com/wp-content/uploads/2020/08/Grand-Theft-Auto-1-Free-PC-Game.png);
+}
+.btn-raiting {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.img-card-2{background-image: url(https://lookimg.com/images/2021/11/24/PasDcE.md.jpg);}
+.btn-raiting {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.img-card-3{background-image: url(https://gaming-cdn.com/images/products/351/orig-fallback-v1/grand-theft-auto-iii-pc-mac-game-steam-europe-cover.jpg?v=1663686822);}
+.btn-raiting {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.img-card-4{background-image: url(https://gta-vice-city.ru/wp-content/uploads/2022/11/wxz_jqsRL9xyOOggaLEWyw-1024x576.png);}
+.btn-raiting {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.img-card-5{background-image:url(https://pic.rutubelist.ru/video/0d/ce/0dceed349f291f92a1424297f7283aa8.jpg) ;}
+.btn-raiting {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.номера-телефона {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0;
+}
+.footer{
+    background-color: #1a1a1a;
+    padding-top: 36px;
+    padding-bottom:  200px;}
+    .img-card-6 {
+        background-image: url(https://i.playground.ru/p/TYYPHxP3NzOKULCkElQzhQ.jpeg);
+    }
+    .img-card-7 {
+        background-image: url(http://igra-wow.ru/_nw/41/33843042.jpg);
+    }
